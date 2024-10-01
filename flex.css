@@ -35,19 +35,25 @@
       height: 10%;
   align-content: stretch;
   align-self: stretch;
-
+  row-gap: .5vh;
+max-width: 1280px;
+margin: 0 auto;
   
 
 }
 
 [class^="box"] {
     width: 33.33%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .box1 {
   flex-basis: 99.35%;
     order: 1;
-    width: 50%;
+    width:98%;
+    height: 300px;
     padding: 0%;
 
   
@@ -57,6 +63,7 @@
 
 .box2 {
   order: 2;
+
   width: 49.5%;
   padding: 0%;
 
@@ -71,6 +78,7 @@
 }
 .box4 {
   order: 4;
+
   width: 24.58%;
   padding: 0%;
 
@@ -78,6 +86,7 @@
 }
 .box5 {
   order: 5;
+
   width: 24.58%;
   padding: 0%;
 
