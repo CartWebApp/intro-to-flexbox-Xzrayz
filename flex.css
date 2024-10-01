@@ -30,52 +30,90 @@
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: space-between;
-  align-items: center;
-      height: 100vh;
-  align-content: space-around;
+  justify-content: space-evenly;
+  align-items: stretch;
+      height: 10%;
+  align-content: stretch;
+  align-self: stretch;
 
   
 
 }
 
 [class^="box"] {
-    width: 30%;
+    width: 33.33%;
 }
 
 .box1 {
+  flex-basis: 99.35%;
+    order: 1;
+    width: 50%;
+    padding: 0%;
+
+  
+
     
 }
 
 .box2 {
-  flex-shrink: 3;
+  order: 2;
+  width: 49.5%;
+  padding: 0%;
+
+  
 
 }
 .box3 {
-  flex-grow: 10;
-  align-self: center;
+  order: 3;
+  width: 49.5%;
+  padding: 0%;
 
 }
 .box4 {
-  order: 1;
-  flex-grow: 5;
+  order: 4;
+  width: 24.58%;
+  padding: 0%;
+
 
 }
 .box5 {
+  order: 5;
+  width: 24.58%;
+  padding: 0%;
 
 }
 .box6 {
+  order: 6;
+  width: 24.58%;
+  padding: 0%;
+
 
 }
 .box7 {
+  order: 7;
+  width: 24.58%;
+  padding: 0%;
+
 
 }
 .box8 {
+  order: 8;
+  width: 32.88%;
+  padding: 0%;
+
 
 }
 .box9 {
+  order: 9;
+  width: 32.88%;
+  padding: 0%;
+
 
 }
 .box10 {
+  order: 10;
+  width: 32.88%;
+  padding: 0%;
+
 
 }
